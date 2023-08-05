@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+/* NAVBAR STYLING */
+
+*{
+    margin:0px;
+}
+
+body{
+    background-color:#eaeaea;
+}
+
+
+.header{
+    margin-top:0px;
+    height:80px;
+    background-color:white;
+    display:flex;
+    position:sticky;
+    top:0;
+    box-shadow:0px 2px 30px rgb(160, 159, 159);
+}
+
+.logo img{
+    height:50px;
+    width:auto;
+    margin-top:15px;
+    margin-left:50px;
+    margin-right:50px;
+}
+
+.menu{
+    display:flex;
+    list-style-type:none;
+    padding:0px;
+}
+
+.menu li{
+    font-family: 'Roboto', sans-serif;
+    padding:32px 17px;  
+    font-size:13.5px;
+    font-weight:500;
+    cursor:pointer;
+}
+
+.menuItem{
+    text-decoration:none;
+    color:black;
+}
+
+.menuItem:hover{
+    background-color:rgb(239, 239, 239);
+    /* cursor:pointer; */
+}
+
+.navItem1:hover{
+    border-bottom:3px solid blue;
+}
+.navItem2:hover{
+    border-bottom:3px solid pink;
+}
+.navItem3:hover{
+    border-bottom:3px solid red;
+}
+.navItem4:hover{
+    border-bottom:3px solid green;
+}
+.navItem5:hover{
+    border-bottom:3px solid purple;
+}
+.navItem6:hover{
+    border-bottom:3px solid orange;
+}
+
+.searchbar{
+    margin-top:22px;
+    height:30px;
+    width:450px;
+    margin-left:50px;
+    background-color:rgb(244, 242, 242);
+    border :1px solid rgb(223, 223, 223);
+    border-radius:4px;
+    padding-left:20px;
+    outline:none;
+}
+
+.searchbar:focus{
+    background-color:white;
+    border :1px solid rgb(207, 207, 207);
+    outline:none;
+}
+
+.userSection{
+    margin-left:50px;
+    display:flex;
+}
+
+.userSection a{
+    text-decoration:none;
+    color:black;
+}
+
+.profile, .wishlist, .bag{
+    display:block;
+    padding:18px 20px;
+    text-align:center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.profile p{
+    font-size:13px;
+    font-weight:bold;
+    font-family: 'Poppins', sans-serif;
+    margin-top:-10px;
+}
+
+.bag p{
+    font-size:13px;
+    font-weight:bold;
+    font-family: 'Poppins', sans-serif;
+    margin-top:-10px;
+}
+
+.wishlist p{
+    font-size:13px;
+    font-weight:bold;
+    font-family: 'Poppins', sans-serif;
+    margin-top:-10px;
+}
+
+.profileIcon, .wishlistIcon, .bagIcon{
+    height:28px;
+    width:auto;
+    margin-bottom:0px;
+}
+
+/* OFFERS SECTION STYLING */
+
+.offerSection{
+    text-align:center;
+}
+
+.innerOfferSection{
+    width:90%;
+    height:auto;
+    background-image: url('/assets/img/endofreason.jpg');
+    margin:auto;
+
+}
+
+
+.offerImage{
+    margin-top:20px;
+    width:90%;
+    height:auto;
+    margin-bottom:0;
+    padding-bottom:0;
+}
+
+.flashSale{
+    padding-top:0;
+    margin-top:0;
+    width:100%;
+    height:auto;
+}

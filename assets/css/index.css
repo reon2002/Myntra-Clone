@@ -32,6 +32,7 @@ body{
 
 .menu{
     display:flex;
+    height:80px;
     list-style-type:none;
     padding:0px;
 }
@@ -165,6 +166,10 @@ body{
 
 
 /*CAROUSEL STYLING */
+.carousel{
+    margin-top:30px;
+}
+
 .container{
     width:100%;
     display:flex;
@@ -187,7 +192,7 @@ body{
     display:flex;
     width:90%;
     justify-content:center;
-    margin-left:0px;
+    margin-left:10px;
     /* text-align:center; */
     margin:auto;
 }
@@ -195,3 +200,143 @@ body{
 .textContainer p span{
     font-weight:bold;
 }
+
+.textContainer p{
+    font-size:14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*RAKSHABANDHAN SECTION STYLING*/
+
+.rakshabandhanContainer{
+    margin-top:20px;
+    margin-bottom:20px;
+
+}
+
+.rakshabandhanText{
+    text-align:center;
+    display:flex;
+    background-color: beige;
+    padding-top:40px;
+    padding-bottom:40px;
+}
+
+.rakshabandhanInnerText{
+    width:100%;
+    justify-content:center;
+    margin:auto;
+}
+
+#rakshabandhanHead{
+    /* font-size:30px; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:500;
+}
+
+#rakhiPara{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:300;
+}
+
+.rakshabandhanImages{
+    display:flex;
+    /* padding-top:10px; */
+    padding-bottom:10px;
+}
+
+.rakshabandhanImages img{
+    width:16.65%;
+    height:auto;
+}
+
+.rakhiTextContainer{
+    display:flex;
+    padding:5px;
+    padding-left:10px;
+}
+
+.rakhiTextContainer p{
+    width:16.65%;
+    height:auto;
+}
+
+.rakhiTextContainer p span{
+    font-weight:bold;
+}
+
+/*GLOBAL SECTION STYLING*/
+
+.globalSection{
+    margin-bottom:10px;
+}
+
+.globalCarousel{
+    margin-top:-20px;
+    padding:0;
+}
+
+.globalText{
+    background-color:beige;
+    padding:40px;
+    text-align:center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#globalHead{
+    font-weight: 500;
+}
+
+#globalPara{
+    font-weight: 300;
+}
+
+.globalImageContainer{
+    display:flex;
+    margin:0;
+    padding:0;
+}
+
+.imageItem{
+    display:block;
+    width:18%;
+    text-align:left;
+    /* border:1px solid rgb(100, 100, 100); */
+    padding-bottom:10px;
+    background-color:white;
+    border-collapse: collapse;
+    
+}
+
+.imageItem img{
+    width:100%;
+    height:auto;
+}
+
+.imageItem p{
+    font-size:1rem;
+    margin:5px;
+    margin-left:10px;
+    margin-bottom:0px;
+    
+}
+
+.imageItem p span{
+    font-weight:bold;
+    margin-top:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
